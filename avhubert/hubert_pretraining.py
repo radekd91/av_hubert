@@ -21,7 +21,8 @@ from omegaconf import MISSING, II
 import numpy as np
 from argparse import Namespace
 
-DBG=True if len(sys.argv) == 1 else False
+# DBG=True if len(sys.argv) == 1 else False
+DBG=False
 
 if DBG:
     from hubert_dataset import AVHubertDataset
